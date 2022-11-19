@@ -58,7 +58,6 @@ const estilos = StyleSheet.create({
         backgroundColor:"#2A9F85",
         paddingVertical: 20,
         borderRadius: 10,
-
     },
     textoBotao:{
         textAlign:"center",
@@ -66,7 +65,5 @@ const estilos = StyleSheet.create({
         fontSize:20,
         lineHeight:26,
         fontWeight: "bold",
-       
-
     }
 })
