@@ -19,9 +19,9 @@ export default function App() {
     return <AppLoading/> // serve para carregar a tela de apploading enquanto a tela carrega
   }
   return (
-    <View>
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar/>
-      <Cesta topo={mock.topo} detalhes={mock.detalhes} /* {...mock} tambem serve *//> 
-    </View>
+      <Cesta topo={mock.topo} detalhes={mock.detalhes} itens={mock.itens} /* {...mock} tambem serve esporta todos de uma vez*//> 
+    </SafeAreaView>
   );
 }

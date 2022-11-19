@@ -33,7 +33,6 @@ const estilos = StyleSheet.create({
             width:50,
             height:50,
         },
-
         nomeFazenda:{
             fontSize:20,
             lineHeight:26,
